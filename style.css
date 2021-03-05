@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+#health-levels,
+#controls {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+#health-levels span {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 13px;
+    color: #ffffff;
+    background: #ff0062;
+}
+#health-levels progress {
+    height: 60px;
+    width: 400px;
+}
+#controls {
+    height: 400px;
+}
+#controls button {
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+    background: #ff0062;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
